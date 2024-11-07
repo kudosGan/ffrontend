@@ -1,0 +1,67 @@
+/* General Table Styles */
+table {
+    width: 100%;
+    
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Allow scrolling on table */
+    max-height: 500px; /* Limit table height */
+    display: block; /* Make the table block-level to support scrolling */
+    
+}
+
+thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 0px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+th {
+    background-color: #73c4df;
+    position: sticky;
+    top: 0;
+
+
+}
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+
+tbody tr td {
+    font-size: 0.85em;
+    padding: 6px 10px;
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 8px;
+        font-size: 0.8em;
+    }
+}
+
+td:nth-child(4 ) {
+    width: 8%;}  
+td:nth-child(5 ) {
+    width: 8%;}
+
+
+

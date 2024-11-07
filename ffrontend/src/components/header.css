@@ -1,0 +1,137 @@
+/* Styling for the header box */
+.header-box {
+    width: 100%; /* Full width for the header */
+    background-color: white; /* Light background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    min-height: 80px; /* Ensure there is enough height for visibility */
+}
+
+/* Styling for the top part of the header */
+.header-top {
+    height: 75%; /* 3/4 height of the header */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    padding: 0 20px; /* Padding for the top and bottom */
+}
+
+/* Styling for the bottom part of the header */
+
+.header-bottom {
+    height: 25%; /* 1/4 height of the header */
+    border-top: 2px solid #070000; /* Dark border to separate sections */
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Vertically center the content */
+    padding-left: 20px; /* Optional padding for alignment */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+}
+
+
+
+/* Optional: Add some margin to the body to avoid overlap */
+body {
+    margin-top: 80px; /* Adjust based on your header height */
+}
+
+/* Flexbox container to align items in the header */
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Space between logo and Français button */
+    align-items: center; /* Vertically align items */
+    width: 100%; /* Use full width */
+}
+
+/* Logo styling */
+.logo {
+  margin-top: 20px;
+    width: 350px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    
+    margin-right: 100px; /* Optional: Add some margin to the right */
+}
+
+/* Français button styling */
+.french-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #0056b3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Hover effect for the Français button */
+.french-button:hover {
+    color: #003366;
+    text-decoration: none;
+}
+
+/* Container for the menu button */
+.menu-button-container {
+  margin-left: 0; /* Remove left margin for positioning */
+}
+
+/* Styling for the menu button */
+.menu-button {
+  margin-right: 20px; /* Optional: Space to the right of the button */
+  background-color: #0056b3;
+  border: 2px solid #0056b3;
+  color: #e1e4e7;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: left;
+  align-items: left;
+}
+  
+  .menu-button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  /* Icon on the button */
+  .expicon {
+    margin-left: 5px;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Position below the button */
+    left: center;
+    background-color: white;
+    
+
+  }
+  
+  .dropdown-item {
+    display: block;
+    
+    padding: 10px 0; /* Less padding for a text-like appearance */
+    color: #01060c; /* Text color */
+    text-decoration: underline; /* Make it look like a link */
+    background-color: transparent; /* No background */
+    border: none; /* No borders */
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+  .dropdown-item:hover {
+    
+    color: #0056b3;
+  }
+  
+  /* Style the button when expanded (optional, based on JavaScript) */
+  .menu-button[aria-expanded="true"] {
+    background-color: #003366;
+    color: white;
+  }
+  
+  .wb-inv {
+    display: none; /* Screen reader text hidden visually */
+  }
+  

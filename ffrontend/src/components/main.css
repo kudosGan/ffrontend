@@ -1,0 +1,109 @@
+/* Center page content vertically and horizontally */
+
+
+/* Main Container for Admin */
+.main-containers {
+    width: 100%;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-wrap: relevant;
+    gap: 10px;
+    align-items: flex-end;
+    margin: 10px;
+   
+  }
+  
+  /* Styling for Input and Date Fields */
+  .input-field, .date-field {
+    flex: 1;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    min-width: 150px;
+  }
+  
+  .date-field {
+    max-width: 150px;
+  }
+  
+  /* Roundtrip Arrow Styling */
+  .roundtrip-arrow {
+    font-size: 20px;
+    flex-shrink: 0;
+    color: #0073e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Fetched Data Display */
+  .fetched-data-container {
+    width: 80%;
+    background-color: #f1f8fb;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Fetched Data Row */
+  .trip-data-row {
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Button Container */
+  .button1-containers {
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+  }
+  
+  /* Admin Title Styling */
+  .fligh-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 ;
+    margin-right: 58%;
+  }
+  
+  
+  
+  /* Button Styles */
+  
+  .main-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  .search-button {
+    background: none ;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .search-button:hover {
+  
+    color: rgb(221, 82, 18);
+  }
+   
+  
+  

@@ -1,0 +1,103 @@
+/* ChatAgent.css */
+.chat-agent-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chat-toggle-button {
+    padding: 15px 30px;           /* Increased padding for larger button size */
+    background-color: #5195e2;
+    color: white;
+    border: none;
+    border-radius: 25px;          /* Slightly more rounded edges */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;            /* Larger font size for better readability */
+    width: 100px;                 /* Optional: Fixed width */
+    height: 60px;                 /* Optional: Fixed height */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Optional: Shadow for depth */
+    transition: transform 0.2s;   /* Smooth transition effect */
+}
+
+.chat-toggle-button:hover {
+    transform: scale(1.05);       /* Slightly enlarges on hover */
+    background-color: #2c6dc2;    /* Darker shade on hover */
+}
+
+.chat-agent {
+    width: 300px;
+    max-height: 400px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-button {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.chat-body {
+    padding: 10px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.message.user {
+    background-color: #e9ecef;
+    align-self: flex-end;
+}
+
+.message.chat-agent {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-start;
+}
+
+.chat-footer {
+    display: flex;
+    padding: 10px;
+}
+
+.chat-footer input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.chat-footer button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

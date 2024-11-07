@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex; /* Use center for proper vertical alignment */
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0; /* Reset margins for better centering control */
+    padding: 110px 100px 0; /* Custom padding to control spacing without margins */
+    overflow: hidden; /* Hide scrolling */
+    
+    background: url('./img/banner.png') center/cover no-repeat;
+  }
+  
+/* Login Container */
+.login-container2 {
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin-top: 0px;
+    padding: 5px;
+    gap: 15px; /* Space between input fields and button */
+}
+
+/* Input Field Styling */
+.input input {
+    width: 100%;
+    max-width: 300px; /* Limit width for better design */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Submit Button Styling */
+.submitButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #45a049;
+}
+
+/* Message Styling */
+.login-container2 p {
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+
+.button-containers2 {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-direction: row; /* Arrange items in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Adjust spacing if needed */
+    width: 50%;
+    padding: 2%;
+    margin: 0;
+}
+
+/* Adjust login title and button to fit well in a row */
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 80%; /* Remove unnecessary margins */
+    text-align: center;
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+.forgot-button {
+    background: none;
+    border: none;
+    color: #dce1e7; /* Choose a button-like color */
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline; /* Make it look like a link */
+    text-wrap: nowrap;
+    margin-left: 50px; /* Space between title and button */
+}
+
+.forgot-button:hover {
+    color: #0056b3; /* Darken color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+
+  
+  
+
+  

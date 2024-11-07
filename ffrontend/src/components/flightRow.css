@@ -1,0 +1,113 @@
+/* FlightRow.css */
+
+.flight-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 16px;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 16px;
+  }
+  
+  .lowest-price-tag {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: #f0a;
+    color: #fff;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .flight-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flight-summary {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flight-timeline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+  
+  .bound-departure, .bound-arrival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bound-time {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .bound-location {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .segments-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .airline-logo img {
+    height: 24px;
+    margin: 0 8px;
+  }
+  
+  .flight-duration {
+    display: flex;
+    align-items: center;
+    font-weight: semi-bold;
+    font-size: 14px;
+  }
+  
+  .cabin-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .cabin-option {
+    display: flex;
+  }
+  
+  .cabin-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cabin-button.economy {
+    background-color: #f0f0f0;
+  }
+  
+  .cabin-button.business {
+    background-color: #e0e0ff;
+  }
+  
+  .cabin-price {
+    font-weight: bold;
+  }
+  
+  .seat-left {
+    font-size: 12px;
+    color: #777;
+  }
+  
